@@ -1,0 +1,69 @@
+/* AddEvent theme CSS
+---------------------------------------------------------------------- */
+
+/* The button */
+.addeventat {
+	color: #000000;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 100%;
+	position: relative;
+	padding: 12px 15px;
+	margin: 20px 0;
+	display: inline-block;
+	-moz-border-radius: 3px;
+	border: 1px solid #cfcfcf;
+	background: #fff;
+	float: right;
+}
+.addeventatc:hover 	{
+	color: #000;
+	outline: none;
+	font-size: 18px;
+	text-decoration: none;
+}
+.addeventatc:active {top:1px;}
+.addeventatc-selected {background-color:#f7f7f7;}
+
+.addeventatc .start,
+.addeventatc .end,
+.addeventatc .timezone,
+.addeventatc .title,
+.addeventatc .description,
+.addeventatc .location,
+.addeventatc .organizer,
+.addeventatc .organizer_email,
+.addeventatc .facebook_event,
+.addeventatc .all_day_event,
+.addeventatc .date_format,
+.addeventatc .alarm_reminder,
+.addeventatc .recurring,
+.addeventatc .attendees,
+.addeventatc .calname,
+.addeventatc .uid,
+.addeventatc .status,
+.addeventatc .method,
+.addeventatc .client {display:none!important;}
+
+/* The drop down */
+.addeventatc_dropdown {
+	width:210px;
+	position:absolute;
+	z-index:99999;
+	padding:6px 0px 0px 0px;
+	background:#fff;
+	text-align:left;
+	display:none;
+	margin-top:-2px;
+	margin-left:-1px;
+	border-top:1px solid #c8c8c8;
+	border-right:1px solid #bebebe;
+	border-bottom:1px solid #a8a8a8;
+	border-left:1px solid #bebebe;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	-webkit-box-shadow:1px 3px 6px rgba(0,0,0,0.15);
+	-moz-box-shadow:1px 3px 6px rgba(0,0,0,0.15);
+	box-shadow:1px 3px 6px rgba(0,0,0,0.15);
+}
+
